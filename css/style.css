@@ -51,8 +51,12 @@ header{
 }
 .header-image img{
     width: 556px;
+    transition: 0.5s ease-in;
+    
 }
-
+header:hover .header-image img{
+    transform: scale(1.5);
+}
 /* -------------- Blog Section --------- */
 .blog-area{
     margin-bottom: 100px;
