@@ -62,11 +62,12 @@ header:hover .header-image img{
         height: 0;
     }
     .header-content{
-        display:block;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
 
     }
     .header-text{
-        width: 100%;
+        
         padding-bottom: 60px;
     }
     .header-text h1{
@@ -74,6 +75,7 @@ header:hover .header-image img{
     }
     .header-image img{
         width: 100%;
+        height:auto;
     }
 
 }
