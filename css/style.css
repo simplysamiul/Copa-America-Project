@@ -155,6 +155,8 @@ article{
     }
     .google-map{
         text-align: center;
+        width:150px;
+        height: 200px;
     }
     .contact-form{
         display: flex;
