@@ -154,10 +154,7 @@ article{
         display: block;
     }
     .google-map{
-        text-align: center;
-        width:150px;
-        height: 200px;
-        margin-bottom: 300px;
+        display:none;
     }
     .contact-form{
         display: flex;
