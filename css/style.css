@@ -157,6 +157,7 @@ article{
         text-align: center;
         width:150px;
         height: 200px;
+        margin-bottom: 300px;
     }
     .contact-form{
         display: flex;
