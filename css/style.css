@@ -199,7 +199,23 @@ marquee{
     letter-spacing: 0.5em;
 }
 @media only screen and (max-width:800px){
-    footer{
-        display:none;
+    .football-logo{
+        margin-bottom: 70px;
     }
+    .football-logo img{
+        width:300px;
+    }
+    .sponsors{
+        display: none;
+    }
+    .venue{
+        width: 50%;
+    }
+    .team{
+        width:50%;
+    }
+    .dates{
+        display: none;
+    }
+    
 }
