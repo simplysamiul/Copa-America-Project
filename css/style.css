@@ -57,6 +57,26 @@ header{
 header:hover .header-image img{
     transform: scale(1.5);
 }
+@media only screen and (max-width:800px){
+    .header{
+        height: 0;
+    }
+    .header-content{
+        display:block;
+
+    }
+    .header-text{
+        width: 100%;
+        padding-bottom: 60px;
+    }
+    .header-text h1{
+        font-size:36px;
+    }
+    .header-image img{
+        width: 100%;
+    }
+
+}
 /* -------------- Blog Section --------- */
 .blog-area{
     margin-bottom: 100px;
@@ -81,6 +101,12 @@ article{
 .blog-info p{
     text-align: justify;
     color:#6C6C6C:
+}
+@media only screen and (max-width:800px){
+    .blog-post{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 
 /* -------------- Footer Section --------- */
