@@ -67,15 +67,13 @@ header:hover .header-image img{
 
     }
     .header-text{
-        
         padding-bottom: 60px;
     }
     .header-text h1{
         font-size:36px;
     }
     .header-image img{
-        width: 100%;
-        height:auto;
+        width: 70%;
     }
 
 }
